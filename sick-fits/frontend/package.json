@@ -62,8 +62,13 @@
   },
   "eslintConfig": {
     "extends": [
-      "wesbos"
-    ]
+      "wesbos",
+      "prettier",
+      "prettier/react"
+    ],
+    "rules": {
+      "prettier/prettier": 0
+    }
   },
   "jest": {
     "setupFilesAfterEnv": [
